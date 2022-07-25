@@ -1,0 +1,8 @@
+create database badri;
+use badri;
+CREATE TABLE Logs (             
+   LOG_DATE  datetime NOT NULL,           
+   LOGGER  varchar(5000) NOT NULL,      
+   LEVEL  varchar(1000) NOT NULL,       
+   MESSAGE  varchar(5000) NOT NULL   
+)  ;
